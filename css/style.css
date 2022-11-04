@@ -11,6 +11,9 @@
 .flex-wrap{
     flex-wrap: wrap;
 }
+.justify{
+    justify-content: space-between;
+}
 
 
 
@@ -24,6 +27,7 @@ header{
 main{
     width: calc(100% - 230px);
     background-color: #141922;
+    overflow-y: scroll;
 }
 footer{
     height: 100px;
@@ -33,12 +37,14 @@ footer{
 ul{
     list-style-type: none;
 }
+
 .container{
     border: 1px solid white;
     width: 95%;
     height: 100%;
     margin: 0 auto;
 }
+
 .header-container{
     display: flex;
     flex-direction: column;
@@ -75,6 +81,29 @@ ul{
     color: #a1a1a1;
     margin: 1rem;
 }
+.section-container{
+    width: 100%;
+    height: 300px;
+    border: 1px solid yellow;
+    margin-top: 1rem;
+}
+.section-container h2,
+.section-container h3{
+    color: white;
+}
+.disc{
+    height: 250px;
+    width: calc((100% / 6) -1rem);
+    margin: 0.5rem;
+    border: 1px solid yellowgreen;
+}
+.img-part{
+    height: 70%;
+}
+.disc img{
+    height: 100%;
+    width: 220px;
+}
 
 
 
@@ -86,7 +115,7 @@ ul{
 
 /* QUERIES S MIN 576 */
 @media screen and (min-width: 576px){
-    
+
 }
 
 /* QUERIES XS  576PX*/
@@ -98,6 +127,7 @@ ul{
     main{
         width: calc(100% - 100px); 
     }
+    
 }
 
 /* QUERIES H 350PX */
