@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utilities */
+.flex{
+    display: flex;
+}
+.wrapper{
+    flex-wrap: wrap;
+}
+
+
+
+header{
+    width: 230px;
+    height: calc(100vh - 100px);
+    background-color: black;
+}
+main{
+    width: calc(100% - 230px);
+    background-color: blueviolet;
+    height: calc(100vh - 100px);
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+}
