@@ -18,6 +18,7 @@ header{
     width: 230px;
     height: calc(100vh - 100px);
     background-color: black;
+    color:#a1a1a1;
 }
 main{
     width: calc(100% - 230px);
@@ -27,4 +28,21 @@ footer{
     height: 100px;
     width: 100%;
     background-color: grey;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    border: 1px solid white;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo img{
+    width: 80%;
 }
