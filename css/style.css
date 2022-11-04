@@ -22,7 +22,7 @@ header{
 }
 main{
     width: calc(100% - 230px);
-    background-color: blueviolet;
+    background-color: #141922;
 }
 footer{
     height: 100px;
@@ -46,3 +46,44 @@ ul{
 .logo img{
     width: 80%;
 }
+
+/* main */
+
+.main-header{
+    height: 100px;
+    background-color: #080b12;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main-header .button{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 2rem;
+    margin-right: 0.5rem;
+}
+
+
+
+
+/* QUERIES M MIN 768PX */
+
+
+
+/* QUERIES S MIN 576 */
+
+
+/* QUERIES XS  576PX*/
+
+@media screen and (max-width: 576px) {
+    header{
+        width: 100px;
+    } 
+    main{
+        width: calc(100% - 100px); 
+    }
+}
+
+/* QUERIES H 350PX */
