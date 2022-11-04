@@ -25,6 +25,7 @@ header{
     padding: 0.7rem
 }
 main{
+    height: calc(100vh - 100px);
     width: calc(100% - 230px);
     background-color: #141922;
     overflow-y: scroll;
@@ -39,7 +40,7 @@ ul{
 }
 
 .container{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 95%;
     height: 100%;
     margin: 0 auto;
@@ -93,7 +94,7 @@ ul{
 }
 .disc{
     height: 250px;
-    width: calc((100% / 6) -1rem);
+    width: 200px;
     margin: 0.5rem;
     border: 1px solid yellowgreen;
 }
@@ -102,14 +103,14 @@ ul{
 }
 .disc img{
     height: 100%;
-    width: 220px;
 }
 
 
 
 /* QUERIES M MIN 768PX */
-@media screen and (min-width: 768px) {
-    
+@media screen and (min-width: 768px) and (max-width: 992px) {
+       
+     
 }
 
 
