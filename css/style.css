@@ -19,6 +19,7 @@ header{
     height: calc(100vh - 100px);
     background-color: black;
     color:#a1a1a1;
+    padding: 0.7rem
 }
 main{
     width: calc(100% - 230px);
@@ -34,7 +35,7 @@ ul{
 }
 .container{
     border: 1px solid white;
-    width: 90%;
+    width: 95%;
     height: 100%;
     margin: 0 auto;
 }
@@ -64,16 +65,29 @@ ul{
     border-radius: 2rem;
     margin-right: 0.5rem;
 }
-
+.list{
+    text-align: center;
+    height: 5%;
+    border: 1px solid white;
+}
+.list li{
+    display: inline;
+    color: #a1a1a1;
+    margin: 1rem;
+}
 
 
 
 /* QUERIES M MIN 768PX */
-
+@media screen and (min-width: 768px) {
+    
+}
 
 
 /* QUERIES S MIN 576 */
-
+@media screen and (min-width: 576px){
+    
+}
 
 /* QUERIES XS  576PX*/
 
