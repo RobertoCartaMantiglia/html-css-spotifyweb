@@ -100,7 +100,7 @@ ul{
 }
 .card{
     height: 100%;
-    width: calc((100% / 6) -1rem);
+    width: calc((100% / 6));
     margin: 0.5rem;
     border: 1px solid yellowgreen;
 }
