@@ -77,7 +77,6 @@ ul{
 }
 .list{
     text-align: center;
-    height: 5%;
     border: 1px solid white;
 }
 .list li{
@@ -127,8 +126,13 @@ ul{
 
 
 /* QUERIES S MIN 576 */
-@media screen and (min-width: 576px){
-
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .cards{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: calc(50% - 1rem);
+    }
 }
 
 /* QUERIES XS  576PX*/
@@ -140,7 +144,12 @@ ul{
     main{
         width: calc(100% - 100px); 
     }
-    
+    .cards{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: calc(50% - 1rem);
+    }
 }
 
 /* QUERIES H 350PX */
