@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
 
 /* utilities */
 .flex{
@@ -84,7 +87,6 @@ ul{
 }
 .section-container{
     width: 100%;
-    height: 300px;
     border: 1px solid yellow;
     margin-top: 1.5rem;
 }
@@ -92,25 +94,35 @@ ul{
 .section-container h3{
     color: white;
 }
-.disc{
-    height: 250px;
-    width: 200px;
+.cards{
+    width: 100%;
+    padding-top:2rem;
+    border: 1px solid pink;
+}
+.card{
+    height: 100%;
+    width: calc((100% / 6) -1rem);
     margin: 0.5rem;
     border: 1px solid yellowgreen;
 }
-.img-part{
+.card img{
     height: 70%;
+    width: 100%;
 }
-.disc img{
-    height: 100%;
-}
+
 
 
 
 /* QUERIES M MIN 768PX */
-@media screen and (min-width: 768px) and (max-width: 992px) {
-       
-     
+@media screen and (min-width: 768px) and (max-width: 998px){
+   .cards{
+    flex-wrap: wrap;
+    max-width: 768px;
+   }    
+   .card{
+    width: calc(25% - 1rem);
+    margin: 0.5rem;
+} 
 }
 
 
