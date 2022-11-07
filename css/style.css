@@ -76,6 +76,9 @@ h3{
 .header-list li>p{
     display: inline;
 }
+.header-list div>p{
+    display: inline;
+}
 .header-list li>h3{
     margin: 1.2rem 0 0.5rem 0;
 }
@@ -87,6 +90,29 @@ h3{
 
 #add-playlist{
     font-size: 3rem;
+}
+#profile{
+    padding-top: 0.7rem;
+    border-top: 1px solid #a1a1a1;
+    color: white; 
+}
+#profile img{
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+    background-color: grey;
+    color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+#download{
+    align-items: center;
+    
+}
+#download img{
+    width: 25px;
+    margin-right: 0.7rem;
+    vertical-align: middle;
 }
 
 
@@ -183,8 +209,8 @@ h3{
     main{
         width: calc(100% - 60px); 
     }
-    .header-container{
-        align-items: center;
+    .header-list{
+        text-align: center;
     }
     .cards{
         flex-wrap: wrap;
@@ -207,6 +233,16 @@ h3{
         width: 100%;
         display:inline-block;
     }
+    
+    #download p,
+    #profile p{
+        display: none;
+    }
+    #profile{
+        border: none;
+    }
+    
+
 }
 
 /* QUERIES H 350PX */
