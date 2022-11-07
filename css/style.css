@@ -25,7 +25,7 @@ header{
     height: calc(100vh - 80px);
     background-color: black;
     color:#a1a1a1;
-    padding: 0.7rem
+    padding: 0.8rem
 }
 main{
     height: calc(100vh - 80px);
@@ -63,15 +63,33 @@ h3{
 .logo img{
     width: 80%;
 }
+.logo-small{
+    width: 50%;
+    display: none;
+}
 .header-list{
     margin-top: 1rem;
 }
 .header-list li{
     line-height: 2.2rem;
 }
-.header-list li>h3{
-    margin-top: 1rem;
+.header-list li>p{
+    display: inline;
 }
+.header-list li>h3{
+    margin: 1.2rem 0 0.5rem 0;
+}
+.header-list span{
+    font-size: 1.5rem;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+#add-playlist{
+    font-size: 3rem;
+}
+
+
 /* main */
 
 .main-header{
@@ -165,11 +183,26 @@ h3{
     main{
         width: calc(100% - 100px); 
     }
+    .header-container{
+        align-items: center;
+    }
     .cards{
         flex-wrap: wrap;
     }
     .card{
         width: calc(50% - 1rem);
+    }
+    .header-list li>p,
+    .header-list li>h3,
+    #add-playlist{
+        display: none;
+    }
+    .logo img{
+        display: none;
+    }
+    .logo-small{
+        width: 100%;
+        display:inline-block;
     }
 }
 
