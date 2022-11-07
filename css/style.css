@@ -44,10 +44,9 @@ footer{
 }
 ul{
     list-style-type: none;
+    margin-top: 0.5rem;
 }
-h3{
-    margin: 1.2rem 0 0.5rem 0;
-}
+
 
 
 .container{
@@ -85,25 +84,22 @@ h3{
     display: inline;
 }
 
-
+.fa-solid, .fa-square-plus{
+    font-size: 3rem;
+    padding-bottom: 0.5rem;
+    vertical-align: middle;
+}
 .tool img,
 #profile img{
     height: 30px;
     width: 30px;
     margin-right: 0.5rem;
 }
-.header-list span{
-    font-size: 1.5rem;
-    margin-right: 2px;
-    vertical-align: middle;
-}
+
 .rounded{
     border-radius: 50%;
 }
 
-#add-playlist{
-    font-size: 3rem;
-}
 #profile{
     padding-top: 0.7rem;
     border-top: 1px solid #a1a1a1;
@@ -157,6 +153,7 @@ h3{
 }
 .section-container p{
     color: #a1a1a1;
+    margin-top: 0.5rem;
 }
 .cards{
     width: 100%;
