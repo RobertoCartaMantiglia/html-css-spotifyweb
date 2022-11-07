@@ -178,10 +178,10 @@ h3{
 
 @media screen and (max-width: 576px) {
     header{
-        width: 100px;
+        width: 60px;
     } 
     main{
-        width: calc(100% - 100px); 
+        width: calc(100% - 60px); 
     }
     .header-container{
         align-items: center;
@@ -197,6 +197,9 @@ h3{
     #add-playlist{
         display: none;
     }
+    .header-list li{
+        line-height: 2.7rem;
+      }
     .logo img{
         display: none;
     }
