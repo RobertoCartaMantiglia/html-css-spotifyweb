@@ -32,6 +32,7 @@ main{
     width: calc(100% - 230px);
     background-color: #141922;
     overflow-y: scroll;
+    color: white;
 }
 footer{
     height: 80px;
@@ -49,10 +50,6 @@ ul{
     width: 97%;
     height: 100%;
     margin: 0 auto;
-}
-h2,
-h3{
-    color: white;
 }
 
 .header-container{
@@ -116,7 +113,9 @@ h3{
     margin-right: 0.7rem;
     vertical-align: middle;
 }
-
+.rounded{
+    border-radius: 50%;
+}
 
 /* main */
 
@@ -137,6 +136,7 @@ h3{
 }
 .list{
     text-align: center;
+    margin-top: 1.5rem;
 }
 .list li{
     display: inline;
@@ -156,14 +156,16 @@ h3{
 }
 .card{
     height: 100%;
-    width: calc((100% / 6) - 1.4rem);
-    margin-right: 0.7rem;
+    width: calc((100% / 6) - 1rem);
+    margin: 0.5rem;
     text-align: center;
 }
 .card img{
     max-width: 100%;
 }
-
+.content-card{
+    padding-top: 1rem;
+}
 
 /* footer  */
 .player{
@@ -190,6 +192,7 @@ h3{
    .card{
     width: calc(25% - 1rem);
     margin: 0.5rem;
+    padding-bottom: 1rem;
 } 
 }
 
