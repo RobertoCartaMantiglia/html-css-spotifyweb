@@ -22,19 +22,19 @@ body{
 
 header{
     width: 230px;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
     background-color: black;
     color:#a1a1a1;
     padding: 0.7rem
 }
 main{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
     width: calc(100% - 230px);
     background-color: #141922;
     overflow-y: scroll;
 }
 footer{
-    height: 100px;
+    height: 80px;
     width: 100%;
     background-color: #282828;
     align-items: center;
@@ -50,6 +50,10 @@ ul{
     height: 100%;
     margin: 0 auto;
 }
+h2,
+h3{
+    color: white;
+}
 
 .header-container{
     display: flex;
@@ -59,11 +63,19 @@ ul{
 .logo img{
     width: 80%;
 }
-
+.header-list{
+    margin-top: 1rem;
+}
+.header-list li{
+    line-height: 2.2rem;
+}
+.header-list li>h3{
+    margin-top: 1rem;
+}
 /* main */
 
 .main-header{
-    height: 100px;
+    height: 80px;
     background-color: #080b12;
     justify-content: flex-end;
     align-items: center;
@@ -72,14 +84,13 @@ ul{
     color: white;
     border: 1px solid white;
     text-decoration: none;
-    font-size: 1.2rem;
-    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    padding: 0.7rem 2rem;
     border-radius: 2rem;
     margin-right: 0.5rem;
 }
 .list{
     text-align: center;
-    border: 1px solid white;
 }
 .list li{
     display: inline;
@@ -88,27 +99,21 @@ ul{
 }
 .section-container{
     width: 100%;
-    border: 1px solid yellow;
     margin-top: 1.5rem;
 }
-.section-container h2,
-.section-container h3{
-    color: white;
-}
+
 .cards{
     width: 100%;
     padding-top:2rem;
-    border: 1px solid pink;
 }
 .card{
     height: 100%;
-    width: calc((100% / 6));
+    width: calc((100% / 6) - 1rem);
     margin: 0.5rem;
-    border: 1px solid yellowgreen;
+    text-align: center;
 }
 .card img{
-    height: 70%;
-    width: 100%;
+    max-width: 100%;
 }
 
 
@@ -116,12 +121,10 @@ ul{
 .player{
     width: 100%;
     align-items: center;
-    padding: 0.5rem;
 }
 .footer-section{
-    width: calc(100%/3); 
+    width: calc((100% / 3) - 1rem); 
     margin: 0.5rem; 
-    border: 1px solid white;
     text-align: center;
 }
 
