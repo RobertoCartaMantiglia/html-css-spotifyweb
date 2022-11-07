@@ -44,6 +44,10 @@ footer{
 ul{
     list-style-type: none;
 }
+h3{
+    margin: 1.2rem 0 0.5rem 0;
+}
+
 
 .container{
     /* border: 1px solid white; */
@@ -76,13 +80,23 @@ ul{
 .header-list div>p{
     display: inline;
 }
-.header-list li>h3{
-    margin: 1.2rem 0 0.5rem 0;
+
+.tool img{
+    color: #a1a1a1;
+}
+.tool img,
+#profile img{
+    height: 30px;
+    width: 30px;
+    margin-right: 0.5rem;
 }
 .header-list span{
     font-size: 1.5rem;
     margin-right: 2px;
     vertical-align: middle;
+}
+.rounded{
+    border-radius: 50%;
 }
 
 #add-playlist{
@@ -96,8 +110,6 @@ ul{
     font-weight: 400; 
 }
 #profile img{
-    width: 30px;
-    height: 30px;
     margin-right: 1rem;
     background-color: grey;
     color: white;
@@ -112,9 +124,6 @@ ul{
     width: 25px;
     margin-right: 0.7rem;
     vertical-align: middle;
-}
-.rounded{
-    border-radius: 50%;
 }
 
 /* main */
@@ -225,7 +234,7 @@ ul{
     .card{
         width: calc(50% - 1rem);
     }
-    .header-list li>p,
+    .header-list li p,
     .header-list li>h3,
     #add-playlist{
         display: none;
@@ -241,10 +250,6 @@ ul{
         display:inline-block;
     }
     
-    #download p,
-    #profile p{
-        display: none;
-    }
     #profile{
         border: none;
     }
