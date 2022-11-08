@@ -171,10 +171,24 @@ ul{
     height: 100%;
     width: calc((100% / 6) - 1rem);
     margin: 0.5rem;
-    text-align: center;
+    text-align: center;   
 }
 .card img{
     max-width: 100%;
+}
+.img-transition{
+    width: 100%;
+    transition: all 0.3s;
+    position: relative;
+}
+.img-transition span{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
 }
 .content-card{
     padding-top: 1rem;
@@ -201,6 +215,9 @@ ul{
 .list li a:hover,
 .list li:hover{
     color: white;
+}
+.img-transition:hover{
+    opacity: 70%;
 }
 
 
