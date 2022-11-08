@@ -175,26 +175,27 @@ ul{
 }
 .card img{
     max-width: 100%;
+    transition: all 0.3s;
+}
+.content-card{
+    padding-top: 1rem;
 }
 .img-transition{
     width: 100%;
-    transition: all 0.3s;
     position: relative;
 }
-.img-transition span{
-    display: none;
-}
+
 .img-transition i{
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
-    font-size: 4rem;
+    font-size: 4.5rem;
+    padding: 3rem;
     transform: translate(-50%, -50%);
+    opacity: 0%;
 }
-.content-card{
-    padding-top: 1rem;
-}
+
 
 /* footer  */
 
@@ -218,11 +219,9 @@ ul{
 .list li:hover{
     color: white;
 }
-.img-transition:hover{
-    opacity: 70%;
-}
-.img-transition span:hover{
-    display: inline;
+.img-transition:hover,
+.img-transition i:hover{
+    opacity: 75%;
 }
 
 
