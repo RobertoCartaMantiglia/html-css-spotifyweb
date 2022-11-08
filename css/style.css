@@ -182,13 +182,15 @@ ul{
     position: relative;
 }
 .img-transition span{
+    display: none;
+}
+.img-transition i{
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
+    font-size: 4rem;
     transform: translate(-50%, -50%);
-    z-index: 2;
-
 }
 .content-card{
     padding-top: 1rem;
@@ -219,6 +221,10 @@ ul{
 .img-transition:hover{
     opacity: 70%;
 }
+.img-transition span:hover{
+    display: inline;
+}
+
 
 
 
