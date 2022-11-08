@@ -271,3 +271,9 @@ ul{
     
 
 }
+
+@media screen and (min-height: 350px){
+    nav article{
+        overflow-y: hidden;
+    }
+}
