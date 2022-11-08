@@ -74,11 +74,18 @@ ul{
 .header-list{
     margin-top: 1rem;
 }
+.header-list h3{
+    color: white;
+}
 .header-list li{
     line-height: 2.2rem;
 }
-.header-list li>p{
+/* .header-list li>p{
     display: inline;
+} */
+.header-list a{
+    text-decoration: none;
+    color: #a1a1a1;
 }
 .header-list div>p{
     display: inline;
@@ -86,20 +93,20 @@ ul{
 
 .fa-solid, .fa-square-plus{
     font-size: 3rem;
-    padding-bottom: 0.5rem;
     vertical-align: middle;
 }
 .tool img,
 #profile img{
     height: 30px;
     width: 30px;
-    margin-right: 0.5rem;
 }
 
 .rounded{
     border-radius: 50%;
 }
-
+#add-playlist{
+    margin-right: 0.5rem;
+}
 #profile{
     padding-top: 0.7rem;
     border-top: 1px solid #a1a1a1;
@@ -186,6 +193,13 @@ ul{
 
 
 
+/* HOVER  */
+
+.header-list li a:hover,
+.list li:hover{
+    color: white;
+}
+
 
 
 
@@ -231,17 +245,18 @@ ul{
     .card{
         width: calc(50% - 1rem);
     }
-    .header-list li p,
+
+    .header-list li a,
     .header-list li>h3,
+    .logo img,
     #add-playlist{
         display: none;
     }
+
     .header-list li{
         line-height: 2.7rem;
       }
-    .logo img{
-        display: none;
-    }
+    
     .logo-small{
         width: 100%;
         display:inline-block;
@@ -253,5 +268,3 @@ ul{
     
 
 }
-
-/* QUERIES H 350PX */
